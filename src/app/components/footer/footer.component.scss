@@ -1,0 +1,20 @@
+:host {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px hsl(240 5.9% 90%);
+
+  padding: 3rem 4.6rem;
+
+  background-color: #ffffffa9;
+  backdrop-filter: blur(6px);
+
+  .license {
+    color: hsl(240 3.8% 46.1%);
+  }
+}
+
+.link {
+  cursor: pointer;
+}

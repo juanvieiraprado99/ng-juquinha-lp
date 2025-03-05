@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15rem 0 12rem 0;
+
+  .about__title {
+    max-width: 80rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    font-size: clamp(2.8rem, 1.875vw + 2.2rem, 5.8rem);
+    font-weight: bold;
+  }
+
+  .about__description {
+    max-width: 60rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    font-size: clamp(1.4rem, 0.375vw + 1.28rem, 2rem);
+  }
+
+  .about__buttons {
+    display: flex;
+    gap: 0.8rem;
+  }
+}

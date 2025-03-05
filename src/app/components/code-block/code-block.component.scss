@@ -1,0 +1,53 @@
+:host {
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  .codeblock_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    juquinha-icon {
+      cursor: pointer;
+    }
+
+    .codeblock_tabs {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+
+      .codeblock_tabs_option {
+        background-color: transparent;
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &.active {
+          background-color: #e9fce7 !important;
+        }
+
+        &:hover {
+          background-color: #8989892a;
+        }
+      }
+    }
+  }
+
+  .codeblock_body {
+    width: 60rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #8989892a;
+    border-radius: 0.8rem;
+
+    .code {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}

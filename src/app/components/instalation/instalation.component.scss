@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 0 0 12rem 0;
+
+  .instalation__title {
+    max-width: 70rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    font-size: clamp(2.8rem, 1.875vw + 2.2rem, 5.8rem);
+    font-weight: bold;
+  }
+
+  .instalation__description {
+    max-width: 60rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: clamp(1.4rem, 0.375vw + 1.28rem, 2rem);
+  }
+
+  .codeblock_container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}

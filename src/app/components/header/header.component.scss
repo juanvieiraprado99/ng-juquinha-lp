@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px hsl(240 5.9% 90%);
+  position: fixed;
+
+  padding: 2rem 4.6rem;
+
+  background-color: #ffffffa9;
+  backdrop-filter: blur(6px);
+
+  .github__container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+
+    .github__tabs {
+      margin-right: 3rem;
+      .tab__option {
+        color: #808080;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+          color: #202020;
+        }
+      }
+    }
+  }
+}
+
+.link {
+  cursor: pointer;
+}

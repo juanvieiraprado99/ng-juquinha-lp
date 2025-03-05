@@ -1,0 +1,24 @@
+<div class="codeblock_header">
+  <div class="codeblock_tabs">
+    @if (label()) {
+    <p class="codeblock_tabs_description">{{ label() }}</p>
+    } @if (tabs().length > 0) { @for (badge of tabs(); track $index; let last =
+    $last) {
+    <p
+      class="codeblock_tabs_option"
+      [ngClass]="{ active: tabs().length > 1 && badge.label === code().label }"
+      (click)="handleSwitchInstall(badge)"
+    >
+      {{ badge.label }}
+    </p>
+    @if (!last) { | } } }
+  </div>
+  <juquinha-icon
+    [name]="isCopied() ? 'check' : 'copy'"
+    size="20"
+    (click)="handleCopyInstallCommand()"
+  />
+</div>
+<div class="codeblock_body">
+  <p class="code">{{ code()!.value }}</p>
+</div>
