@@ -1,8 +1,8 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, inject, OnInit, signal } from '@angular/core';
+import { GithubRepository } from '@interfaces/github';
 import { ButtonComponent } from '@ng-juquinha/ui';
-import { GithubRepository } from '../../interfaces/github';
-import { GithubService } from '../../services/github.service';
+import { GithubService } from '@services/github.service';
 
 @Component({
   selector: 'app-header',

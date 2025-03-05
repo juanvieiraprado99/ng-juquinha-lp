@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { AboutComponent } from '../../components/about/about.component';
-import { InstalationComponent } from '../../components/instalation/instalation.component';
+import { AboutComponent } from '@components/about/about.component';
+import { InstalationComponent } from '@components/instalation/instalation.component';
 
 @Component({
   selector: 'app-initial',

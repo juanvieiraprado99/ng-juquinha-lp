@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
+import { GithubRepository } from '@interfaces/github';
 import { BaseService } from './base.service';
-import { GithubRepository } from '../interfaces/github';
 
 @Injectable({
   providedIn: 'root',

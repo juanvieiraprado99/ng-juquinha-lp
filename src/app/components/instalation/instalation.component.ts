@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { CodeBlockComponent } from '../code-block/code-block.component';
+import { CodeBlockComponent } from '@components/code-block/code-block.component';
 
 @Component({
   selector: 'app-instalation',
